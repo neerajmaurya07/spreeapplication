@@ -83,5 +83,3 @@ test:
 production:
   <<: *default
   database: spreeapp_production
-  username: spreeapp
-  password: <%= ENV['SPREEAPP_DATABASE_PASSWORD'] %>
